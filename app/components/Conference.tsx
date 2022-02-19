@@ -28,7 +28,7 @@ const Peer: React.FC<{ peer: HMSPeer }> = ({ peer }) => {
     <div className='tile'>
       {!isVideoOn ? <Avatar name={peer.name} /> : null}
       <span className='name'>{peer.name}</span>
-      <Video videoTrack={peer.videoTrack} />
+      <Video mirror={peer.isLocal} videoTrack={peer.videoTrack} />
       <span className='audio'>
         {!isAudioOn ? <MicOffIcon /> : <MicOnIcon />}
       </span>
@@ -36,8 +36,17 @@ const Peer: React.FC<{ peer: HMSPeer }> = ({ peer }) => {
   );
 };
 
-const Video = ({ videoTrack }: any) => {
+const Video = ({ videoTrack, mirror }: any) => {
   const ref = useVideo(videoTrack);
-  return <video ref={ref} autoPlay muted playsInline />;
+  return (
+    <video
+      className={mirror ? 'mirror' : ''}
+      ref={ref}
+      autoPlay
+      muted
+      playsInline
+    />
+  );
 };
+
 export default Conference;

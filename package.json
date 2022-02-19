@@ -1,8 +1,10 @@
 {
-  "private": true,
-  "name": "remix-app-template",
-  "description": "",
-  "license": "",
+  "name": "remix-video-chat",
+  "description": "Video chat app with Remix and 100ms react sdk in less than 100 lines of code.",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Deep-Codes/remix-video-chat"
+  },
   "scripts": {
     "build": "remix build",
     "dev": "node -r dotenv/config node_modules/.bin/remix dev",

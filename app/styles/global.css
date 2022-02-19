@@ -195,6 +195,7 @@ footer button:focus {
   width: 100%;
   margin-top: 5rem;
 }
+
 .error p {
   margin-top: 1rem;
   color: var(--gray10);
@@ -217,4 +218,8 @@ footer button:focus {
 a {
   color: var(--gray12);
   margin: 0.5rem 0;
+}
+
+.mirror {
+  transform: scaleX(-1);
 }
