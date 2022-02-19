@@ -197,4 +197,24 @@ footer button:focus {
 }
 .error p {
   margin-top: 1rem;
+  color: var(--gray10);
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.home p {
+  max-width: 360px;
+  margin: 2rem;
+  color: var(--gray10);
+}
+a {
+  color: var(--gray12);
+  margin: 0.5rem 0;
 }

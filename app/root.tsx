@@ -10,7 +10,7 @@ import type { MetaFunction } from 'remix';
 import { HMSRoomProvider } from '@100mslive/react-sdk';
 
 export const meta: MetaFunction = () => {
-  return { title: 'New Remix App' };
+  return { title: 'Remix Video Chat' };
 };
 
 export default function App() {

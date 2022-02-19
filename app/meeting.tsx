@@ -54,6 +54,11 @@ export default function MeetingSlug() {
         <div className='error'>
           <h1>Error</h1>
           <p>{error}</p>
+          <p>
+            Get RoomId from{' '}
+            <a href='https://dashboard.100ms.live/rooms'>here</a> and join with
+            the role created in it :)
+          </p>
         </div>
       ) : null}
     </div>
