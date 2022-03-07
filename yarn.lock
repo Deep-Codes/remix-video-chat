@@ -2,21 +2,21 @@
 # yarn lockfile v1
 
 
-"@100mslive/hms-video-store@0.2.89":
-  version "0.2.89"
-  resolved "https://registry.npmjs.org/@100mslive/hms-video-store/-/hms-video-store-0.2.89.tgz"
-  integrity sha512-XID0mb7CQ8cIaPPHDtXmeoYkH6dKeHYQio8fqBMHH7KoILXzKV5Ztdjr6EMkbI9kkM8z9YdgCNs6DqtAQleKhA==
+"@100mslive/hms-video-store@0.2.90":
+  version "0.2.90"
+  resolved "https://registry.yarnpkg.com/@100mslive/hms-video-store/-/hms-video-store-0.2.90.tgz#480f559685e26d83ad26c4a880ba2d0e4f8119c6"
+  integrity sha512-aJtu0sAeJ3jh7FufiQF0zZLedZ2ypXLoK43ypeWaVX7sBLURgzA5Kp6mmbLmQwV5I+6O+37wgitKyWSuLNvphg==
   dependencies:
-    "@100mslive/hms-video" "0.1.43"
+    "@100mslive/hms-video" "0.1.44"
     eventemitter2 "^6.4.5"
     immer "^9.0.6"
     reselect "4.0.0"
     zustand "3.5.7"
 
-"@100mslive/hms-video@0.1.43":
-  version "0.1.43"
-  resolved "https://registry.npmjs.org/@100mslive/hms-video/-/hms-video-0.1.43.tgz"
-  integrity sha512-zb5Z55HCSqdvcl/JcR3A7nXlWqG/uQM8cf5hNnsHMTzSTgkCWeIWxL/mSP79DTWjdgJ9wAGLO26s/zGQBWfFjA==
+"@100mslive/hms-video@0.1.44":
+  version "0.1.44"
+  resolved "https://registry.yarnpkg.com/@100mslive/hms-video/-/hms-video-0.1.44.tgz#03b62e9e7745d2e2d2d6f466a436120f0fa2ce39"
+  integrity sha512-ejPApnwh1dn5gMHojTDU/E5jRoeFUlAkT9I/yzr5RJmMbPHNblGqHlkwpy3zN9FsSNzqNI0x5YGNFDPXkij2eg==
   dependencies:
     eventemitter2 "^6.4.5"
     sdp-transform "^2.14.1"
@@ -24,17 +24,17 @@
     uuid "^8.3.2"
     webrtc-adapter "^8.0.0"
 
-"@100mslive/react-icons@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@100mslive/react-icons/-/react-icons-0.0.6.tgz#43316f94915d00dcf3f2195e2e6fd3643d8f08bd"
-  integrity sha512-ZNF06qv7/6wirtfVMxXEzPMp4i0A4yHCoEhJ7irTngBo2fjjy1tlHS0QxQlY05ImuEpPm2vwVjgd3gj6ZdmBXg==
+"@100mslive/react-icons@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@100mslive/react-icons/-/react-icons-0.0.7.tgz#033923665563645c102b534d15c02e5b8b688664"
+  integrity sha512-VOW11tA7Ij/RUBYMaLiBKDwckXOq8NIM9j57eUsLW6iFpIqGq038mkgxppn3qDFkQxo9uyZlPSFKg6DTB+SHFA==
 
-"@100mslive/react-sdk@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.npmjs.org/@100mslive/react-sdk/-/react-sdk-0.0.6.tgz"
-  integrity sha512-48aI8YshLIl9GgoHA/klOG9zCAGBrF5CoCx4msecmKQuIe5a8HN1r6GxThA89EnS+3YODaDatAVSOEsRQjZ+mA==
+"@100mslive/react-sdk@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@100mslive/react-sdk/-/react-sdk-0.0.7.tgz#d0ba80778296ccd0e2ee0c83056799c54b6eecdd"
+  integrity sha512-rKx9D7JbcgdGSupWawh2wutX7hR61bhU0cA0PP6tmqQRlZfHRbrGmOzW75A1W/Fw9xz8DkspBzpiXxzAjY7yDg==
   dependencies:
-    "@100mslive/hms-video-store" "0.2.89"
+    "@100mslive/hms-video-store" "0.2.90"
     react-intersection-observer "^8.33.1"
     react-resize-detector "^7.0.0"
     zustand "^3.6.2"

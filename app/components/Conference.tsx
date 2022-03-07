@@ -37,11 +37,13 @@ const Peer: React.FC<{ peer: HMSPeer }> = ({ peer }) => {
 };
 
 const Video = ({ videoTrack, mirror }: any) => {
-  const ref = useVideo(videoTrack);
+  const { videoRef } = useVideo({
+    trackId: videoTrack,
+  });
   return (
     <video
       className={mirror ? 'mirror' : ''}
-      ref={ref}
+      ref={videoRef}
       autoPlay
       muted
       playsInline
