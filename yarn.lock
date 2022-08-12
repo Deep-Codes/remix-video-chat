@@ -2,21 +2,21 @@
 # yarn lockfile v1
 
 
-"@100mslive/hms-video-store@0.2.90":
-  version "0.2.90"
-  resolved "https://registry.yarnpkg.com/@100mslive/hms-video-store/-/hms-video-store-0.2.90.tgz#480f559685e26d83ad26c4a880ba2d0e4f8119c6"
-  integrity sha512-aJtu0sAeJ3jh7FufiQF0zZLedZ2ypXLoK43ypeWaVX7sBLURgzA5Kp6mmbLmQwV5I+6O+37wgitKyWSuLNvphg==
+"@100mslive/hms-video-store@0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@100mslive/hms-video-store/-/hms-video-store-0.5.0.tgz#5fb3c8bc328c6e77d4ef5ee9fda4e37e75c0f1f1"
+  integrity sha512-oF1GaEkTiJbHHgm+9oLe0CmqZxKf/wJAKCzf0NRO/TlfNACTUmv7b5/nnBC21exwYOw0gpnWL+P+eY5WtSFRMQ==
   dependencies:
-    "@100mslive/hms-video" "0.1.44"
+    "@100mslive/hms-video" "0.4.0"
     eventemitter2 "^6.4.5"
     immer "^9.0.6"
     reselect "4.0.0"
     zustand "3.5.7"
 
-"@100mslive/hms-video@0.1.44":
-  version "0.1.44"
-  resolved "https://registry.yarnpkg.com/@100mslive/hms-video/-/hms-video-0.1.44.tgz#03b62e9e7745d2e2d2d6f466a436120f0fa2ce39"
-  integrity sha512-ejPApnwh1dn5gMHojTDU/E5jRoeFUlAkT9I/yzr5RJmMbPHNblGqHlkwpy3zN9FsSNzqNI0x5YGNFDPXkij2eg==
+"@100mslive/hms-video@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@100mslive/hms-video/-/hms-video-0.4.0.tgz#a644f74b3e71a1d3f61542d818976263def38b0a"
+  integrity sha512-V/x8uBVCpBCcy3PbYARCgAn8dwSSjNBvk77/brs4gBKz0mkvJcRBI/nCBJiDVrCZ+XD+cxrBfhyfrIvvEisP/A==
   dependencies:
     eventemitter2 "^6.4.5"
     sdp-transform "^2.14.1"
@@ -29,12 +29,12 @@
   resolved "https://registry.yarnpkg.com/@100mslive/react-icons/-/react-icons-0.0.7.tgz#033923665563645c102b534d15c02e5b8b688664"
   integrity sha512-VOW11tA7Ij/RUBYMaLiBKDwckXOq8NIM9j57eUsLW6iFpIqGq038mkgxppn3qDFkQxo9uyZlPSFKg6DTB+SHFA==
 
-"@100mslive/react-sdk@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@100mslive/react-sdk/-/react-sdk-0.0.7.tgz#d0ba80778296ccd0e2ee0c83056799c54b6eecdd"
-  integrity sha512-rKx9D7JbcgdGSupWawh2wutX7hR61bhU0cA0PP6tmqQRlZfHRbrGmOzW75A1W/Fw9xz8DkspBzpiXxzAjY7yDg==
+"@100mslive/react-sdk@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@100mslive/react-sdk/-/react-sdk-0.3.0.tgz#0a71a054bca069aaedfcf897e8883d3ffd1ab759"
+  integrity sha512-tMBNt+jwlQfXeuTUqia2pFQlZxjFAUZIgHoQB1mO7EcO9Q7bZWuukFGrZ06ORF4pqobHiWPSB+7jTYJbJTzgBw==
   dependencies:
-    "@100mslive/hms-video-store" "0.2.90"
+    "@100mslive/hms-video-store" "0.5.0"
     react-intersection-observer "^8.33.1"
     react-resize-detector "^7.0.0"
     zustand "^3.6.2"
