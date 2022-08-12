@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "remix build",
-    "dev": "node -r dotenv/config node_modules/.bin/remix dev",
+    "dev": "node -r dotenv/config node_modules/.bin/remix dev --port 3000",
     "postinstall": "remix setup node"
   },
   "dependencies": {
