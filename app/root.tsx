@@ -5,8 +5,8 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from 'remix';
-import type { MetaFunction } from 'remix';
+} from "@remix-run/react";
+import type { MetaFunction } from "@remix-run/node";
 import { HMSRoomProvider } from '@100mslive/react-sdk';
 
 export const meta: MetaFunction = () => {

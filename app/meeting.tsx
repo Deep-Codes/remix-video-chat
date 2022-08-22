@@ -1,5 +1,5 @@
-import { useLoaderData } from 'remix';
-import type { LoaderFunction } from 'remix';
+import { useLoaderData } from '@remix-run/react';
+import type { LoaderFunction } from '@remix-run/node';
 import styles from '~/styles/global.css';
 import Live from '~/components/Live';
 
